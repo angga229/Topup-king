@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TopUp Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>TOP UP GAME</h1>
+<p>Cepat • Murah • Aman</p>
+</header>
+
+<div class="container">
+
+<label>Pilih Game</label>
+<select id="game">
+<option>Mobile Legends</option>
+<option>Free Fire</option>
+<option>Valorant</option>
+<option>Genshin Impact</option>
+</select>
+
+<label>ID Game</label>
+<input type="text" id="idgame" placeholder="Masukkan ID Game">
+
+<label>Pilih Nominal</label>
+<select id="nominal">
+<option>5 Diamond - Rp1.500</option>
+<option>12 Diamond - Rp3.000</option>
+<option>50 Diamond - Rp12.000</option>
+<option>100 Diamond - Rp25.000</option>
+</select>
+
+<button onclick="pesan()">Top Up Sekarang</button>
+
+<p id="hasil"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
